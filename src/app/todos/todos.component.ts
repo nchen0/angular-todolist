@@ -20,7 +20,6 @@ export class TodosComponent implements OnInit {
   }
 
   onSubmit(): void {
-    console.log('todos: ', todos);
     this.todoService.addTodos(this.checkoutForm.value);
     this.checkoutForm.reset();
   }

@@ -10,7 +10,6 @@ export class TodoService {
   constructor() { }
 
   addTodos(todo: Todo) {
-    console.log('adding');
     this.todos.push(todo);
   }
 }
